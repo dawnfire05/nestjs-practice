@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get("/hello")
+  JustKidding(): string{
+    return "Fuck you";
+  }
 }
